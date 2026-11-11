@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Constructora Rochhe high-level platform architecture</title>
+  <desc id="desc">A Next.js web client connects to a FastAPI application and PostgreSQL database, with private object storage, AI-assisted drafting, and email services.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111315"/>
+      <stop offset="1" stop-color="#25211a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a97e32"/>
+      <stop offset=".5" stop-color="#f0ce79"/>
+      <stop offset="1" stop-color="#a97e32"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <path d="M64 100H1136" stroke="url(#gold)" stroke-opacity=".8"/>
+  <text x="68" y="74" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#f0ce79" letter-spacing="3">CONSTRUCTORA ROCHHE · HIGH-LEVEL PLATFORM VIEW</text>
+
+  <g filter="url(#shadow)">
+    <rect x="65" y="172" width="255" height="270" rx="20" fill="#f8f4e9"/>
+    <rect x="472" y="172" width="255" height="270" rx="20" fill="#ba8c38"/>
+    <rect x="880" y="172" width="255" height="270" rx="20" fill="#f8f4e9"/>
+  </g>
+
+  <text x="98" y="220" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#86601f" letter-spacing="2">WEB EXPERIENCE</text>
+  <text x="98" y="270" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#1a1b1c">Next.js + React</text>
+  <text x="98" y="311" font-family="Arial, sans-serif" font-size="17" fill="#46423a">Public company site</text>
+  <text x="98" y="342" font-family="Arial, sans-serif" font-size="17" fill="#46423a">Authenticated operations workspace</text>
+  <text x="98" y="373" font-family="Arial, sans-serif" font-size="17" fill="#46423a">Role-aware project experience</text>
+
+  <text x="504" y="220" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#302412" letter-spacing="2">APPLICATION API</text>
+  <text x="504" y="270" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#15120d">FastAPI</text>
+  <text x="504" y="311" font-family="Arial, sans-serif" font-size="17" fill="#382a15">REST endpoints &amp; business rules</text>
+  <text x="504" y="342" font-family="Arial, sans-serif" font-size="17" fill="#382a15">Authentication &amp; permissions</text>
+  <text x="504" y="373" font-family="Arial, sans-serif" font-size="17" fill="#382a15">Reports &amp; document workflows</text>
+
+  <text x="913" y="220" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#86601f" letter-spacing="2">DATA &amp; SERVICES</text>
+  <text x="913" y="270" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#1a1b1c">PostgreSQL</text>
+  <text x="913" y="311" font-family="Arial, sans-serif" font-size="17" fill="#46423a">Structured operational data</text>
+  <text x="913" y="342" font-family="Arial, sans-serif" font-size="17" fill="#46423a">Private object storage</text>
+  <text x="913" y="373" font-family="Arial, sans-serif" font-size="17" fill="#46423a">AI drafting &amp; email delivery</text>
+
+  <path d="M323 306H454" stroke="#e5bd63" stroke-width="7" stroke-linecap="round"/>
+  <path d="M454 306l-17-12v24z" fill="#e5bd63"/>
+  <path d="M730 306H862" stroke="#e5bd63" stroke-width="7" stroke-linecap="round"/>
+  <path d="M862 306l-17-12v24z" fill="#e5bd63"/>
+  <path d="M64 520H1136" stroke="#ffffff" stroke-opacity=".12"/>
+  <text x="68" y="570" font-family="Arial, sans-serif" font-size="16" fill="#d8d0bf">Documentation-only representation · No source code, private routes, data models, or deployment settings included</text>
+</svg>

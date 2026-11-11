@@ -1,0 +1,23 @@
+# Keep this repository documentation-only.
+.env
+.env.*
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.log
+*.sql
+*.sqlite
+*.db
+*.dump
+*.bak
+*.zip
+*.rar
+*.7z
+*.pem
+*.key
+uploads/
+private/
+Thumbs.db
+.DS_Store
